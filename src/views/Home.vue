@@ -8,7 +8,8 @@
       <button style="margin:0 10px" @click="skin">皮肤切换</button>
       <button @click="go">to-Bar</button>
       <button style="margin:0 10px" @click="toMap">Map</button>
-      <button style="margin:0 10px" @click="toScroll">scroll</button>
+      <button style="margin:0 10px 0 0" @click="toScroll">scroll</button>
+      <button style="margin:0 10px 0 0" @click="emotion">emotion</button>
 
     </div>
   </div>
@@ -65,6 +66,9 @@ export default {
     },
     toScroll() {
       this.$router.push('/scroll')
+    },
+    emotion() {
+      this.$router.push('/emotion')
     }
   }
 }
