@@ -6,6 +6,11 @@ import VueI18n from 'vue-i18n';
 import Element from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
+import directives from './common/directive.js'
+
+Object.keys(directives).forEach(key => {
+    Vue.directive(key, directives[key])
+})
 
 Vue.use(VueI18n)
 Vue.use(Element)
