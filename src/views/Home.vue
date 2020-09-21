@@ -11,6 +11,8 @@
             <button style="margin:0 10px 0 0" @click="toScroll">scroll</button>
             <button style="margin:0 10px 0 0" @click="emotion">emotion</button>
             <button style="margin:0 10px 0 0" @click="input">input</button>
+            <button style="margin:0 10px 0 0" @click="excel">excel</button>
+            <button style="margin:0 10px 0 0" @click="goAnimate">vue动画</button>
 
         </div>
     </div>
@@ -71,6 +73,12 @@ export default {
         },
         input () {
             this.$router.push('/input')
+        },
+        excel () {
+            this.$router.push('/excel')
+        },
+        goAnimate () {
+            this.$router.push('/vue/animate')
         }
     }
 }

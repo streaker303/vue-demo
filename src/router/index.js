@@ -5,6 +5,8 @@ import map from '../views/map.vue'
 import scroll from '../views/scroll.vue'
 import emotion from '../views/emotion.vue'
 import input from '../views/input.vue'
+import excel from '../views/excel.vue'
+import animate from '../views/vueAnimate.vue'
 
 import one from '../views/1.vue';
 import two from '../views/2.vue';
@@ -23,6 +25,17 @@ const routes = [{
         name: 'scroll',
         component: scroll
     },
+    {
+        path: '/excel',
+        name: 'excel',
+        component: excel
+    },
+    {
+        path: '/vue/animate',
+        name: 'animate',
+        component: animate
+    },
+
     {
         path: '/map',
         name: 'map',
