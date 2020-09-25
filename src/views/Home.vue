@@ -88,4 +88,7 @@ export default {
         margin: 0;
         padding: 0;
     }
+    .home {
+        transform: translate(0,0);
+    }
 </style>
