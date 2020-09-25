@@ -13,6 +13,7 @@
             <button style="margin:0 10px 0 0" @click="input">input</button>
             <button style="margin:0 10px 0 0" @click="excel">excel</button>
             <button style="margin:0 10px 0 0" @click="goAnimate">vue动画</button>
+            <button style="margin:0 10px 0 0" @click="goReverse">不抖动插入</button>
 
         </div>
     </div>
@@ -79,6 +80,9 @@ export default {
         },
         goAnimate () {
             this.$router.push('/vue/animate')
+        },
+        goReverse () {
+            this.$router.push('/reverse')
         }
     }
 }

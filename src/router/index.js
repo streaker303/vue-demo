@@ -7,6 +7,7 @@ import emotion from '../views/emotion.vue'
 import input from '../views/input.vue'
 import excel from '../views/excel.vue'
 import animate from '../views/vueAnimate.vue'
+import reverse from '../views/reverse.vue'
 
 import one from '../views/1.vue';
 import two from '../views/2.vue';
@@ -24,6 +25,11 @@ const routes = [{
         path: '/scroll',
         name: 'scroll',
         component: scroll
+    },
+    {
+        path: '/reverse',
+        name: 'reverse',
+        component: reverse
     },
     {
         path: '/excel',
