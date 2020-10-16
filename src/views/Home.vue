@@ -14,6 +14,8 @@
             <button style="margin:0 10px 0 0" @click="excel">excel</button>
             <button style="margin:0 10px 0 0" @click="goAnimate">vue动画</button>
             <button style="margin:0 10px 0 0" @click="goReverse">不抖动插入</button>
+            <button style="margin:0 10px 0 0" @click="goCar">小球购物车</button>
+            <button style="margin:0 10px 0 0" @click="goCoder">coder</button>
 
         </div>
     </div>
@@ -83,6 +85,12 @@ export default {
         },
         goReverse () {
             this.$router.push('/reverse')
+        },
+        goCar () {
+            this.$router.push('/shopCar')
+        },
+        goCoder () {
+            this.$router.push('/coder')
         }
     }
 }

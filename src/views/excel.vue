@@ -92,7 +92,7 @@ export default {
         uploadFile: function () { // 点击导入按钮
             this.imFile.click()
         },
-        downloadFile: function (rs) { // 点击导出按钮
+            downloadFile: function (rs) { // 点击导出按钮
             let data = [{}]
             for (let k in rs[0]) {
                 data[0][k] = k

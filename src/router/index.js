@@ -8,6 +8,8 @@ import input from '../views/input.vue'
 import excel from '../views/excel.vue'
 import animate from '../views/vueAnimate.vue'
 import reverse from '../views/reverse.vue'
+import shopCar from '../views/shopCar.vue'
+import coder from '../views/coder.vue'
 
 import one from '../views/1.vue';
 import two from '../views/2.vue';
@@ -51,10 +53,16 @@ const routes = [{
         name: 'emotion',
         component: emotion
     },
+
     {
-        path: '/input',
-        name: 'input',
-        component: input
+        path: '/shopCar',
+        name: 'shopCar',
+        component: shopCar
+    },
+    {
+        path: '/coder',
+        name: 'coder',
+        component: coder
     },
     {
         path: '/about',
