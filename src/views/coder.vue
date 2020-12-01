@@ -1,6 +1,6 @@
 <template>
     <div>
-        <coder_inner ref="coder" v-model="content" :options="cmOptions" class="code"></coder_inner>
+        <coder_inner ref="coder" v-if="flag" v-model="content" :options="cmOptions" class="code"></coder_inner>
         <button @click="click1">1111111</button>
     </div>
 </template>
@@ -11,8 +11,9 @@ export default {
     name: "coder",
     data () {
         return {
-            content: 'let a = 12;b={c:12}',
-            cmOptions: ''
+            content: '',
+            cmOptions: '',
+            flag: false
         }
     },
     components: {
@@ -21,6 +22,7 @@ export default {
     methods: {
         click1 () {
             console.log(this.content)
+            this.flag = !this.flag;
         }
     }
 }

@@ -16,6 +16,7 @@
             <button style="margin:0 10px 0 0" @click="goReverse">不抖动插入</button>
             <button style="margin:0 10px 0 0" @click="goCar">小球购物车</button>
             <button style="margin:0 10px 0 0" @click="goCoder">coder</button>
+            <button style="margin:0 10px 0 0" @click="goSknew">sknew</button>
 
         </div>
     </div>
@@ -91,6 +92,9 @@ export default {
         },
         goCoder () {
             this.$router.push('/coder')
+        },
+        goSknew () {
+            this.$router.push('/sknew')
         }
     }
 }
