@@ -17,6 +17,7 @@
             <button style="margin:0 10px 0 0" @click="goCar">小球购物车</button>
             <button style="margin:0 10px 0 0" @click="goCoder">coder</button>
             <button style="margin:0 10px 0 0" @click="goSknew">sknew</button>
+            <button style="margin:0 10px 0 0" @click="goLoading">Loading...</button>
 
         </div>
     </div>
@@ -95,6 +96,9 @@ export default {
         },
         goSknew () {
             this.$router.push('/sknew')
+        },
+        goLoading () {
+            this.$router.push('/loading')
         }
     }
 }
