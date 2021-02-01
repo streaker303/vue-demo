@@ -1,5 +1,5 @@
 <template>
-    <div class="container" v-infinite-scroll="add" infinite-scroll-delay="1000" dir="rtl" ref="objContainer">
+    <div class="container" v-infinite-scroll="add" infinite-scroll-delay="1000" dir="rtl" ref="objContainer" style="width: 50%">
         <div class="inner">
             <ul>
                 <li v-for="(item,index) in list" :key="index">

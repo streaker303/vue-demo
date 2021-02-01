@@ -8,6 +8,7 @@ import input from '../views/input.vue'
 import excel from '../views/excel.vue'
 import animate from '../views/vueAnimate.vue'
 import reverse from '../views/reverse.vue'
+import noReverse from '../views/noReverse.vue'
 import shopCar from '../views/shopCar.vue'
 import coder from '../views/coder.vue'
 import sknew from '../views/sknew.vue'
@@ -34,6 +35,11 @@ const routes = [{
         path: '/reverse',
         name: 'reverse',
         component: reverse
+    },
+    {
+        path: '/noReverse',
+        name: 'noReverse',
+        component: noReverse
     },
     {
         path: '/excel',
