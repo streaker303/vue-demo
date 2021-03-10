@@ -13,6 +13,7 @@ import shopCar from '../views/shopCar.vue'
 import coder from '../views/coder.vue'
 import sknew from '../views/sknew.vue'
 import loading from '../views/loading_bar.vue'
+import yzm from '../views/yzm.vue'
 
 import one from '../views/1.vue';
 import two from '../views/2.vue';
@@ -81,6 +82,11 @@ const routes = [{
         path: '/loading',
         name: 'loading',
         component: loading
+    },
+    {
+        path: '/yzm',
+        name: 'yzm',
+        component: yzm
     },
     {
         path: '/about',

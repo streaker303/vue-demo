@@ -18,6 +18,7 @@
             <button style="margin:0 10px 0 0" @click="goCoder">coder</button>
             <button style="margin:0 10px 0 0" @click="goSknew">sknew</button>
             <button style="margin:0 10px 0 0" @click="goLoading">Loading...</button>
+            <button style="margin:0 10px 0 0" @click="goYzm">验证码</button>
 
         </div>
     </div>
@@ -99,6 +100,9 @@ export default {
         },
         goLoading () {
             this.$router.push('/loading')
+        },
+        goYzm () {
+            this.$router.push('/yzm')
         }
     }
 }
