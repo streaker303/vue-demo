@@ -19,6 +19,9 @@
             <button style="margin:0 10px 0 0" @click="goSknew">sknew</button>
             <button style="margin:0 10px 0 0" @click="goLoading">Loading...</button>
             <button style="margin:0 10px 0 0" @click="goYzm">验证码</button>
+            <button style="margin:0 10px 0 0" @click="goG6">拓扑图</button>
+            <button style="margin:0 10px 0 0" @click="goTree">穿梭框</button>
+            <button style="margin:0 10px 0 0" @click="$router.push('/virtualScroll')">虚拟列表</button>
 
         </div>
     </div>
@@ -103,6 +106,12 @@ export default {
         },
         goYzm () {
             this.$router.push('/yzm')
+        },
+        goG6 () {
+          this.$router.push('/g6')
+        },
+        goTree() {
+            this.$router.push('/tree')
         }
     }
 }

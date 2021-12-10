@@ -14,6 +14,9 @@ import coder from '../views/coder.vue'
 import sknew from '../views/sknew.vue'
 import loading from '../views/loading_bar.vue'
 import yzm from '../views/yzm.vue'
+import g6 from '../views/g6.vue'
+import tree from '../views/tree.vue'
+import virtualScroll from '../views/virtualScroll.vue'
 
 import one from '../views/1.vue';
 import two from '../views/2.vue';
@@ -87,6 +90,21 @@ const routes = [{
         path: '/yzm',
         name: 'yzm',
         component: yzm
+    },
+    {
+        path: '/g6',
+        name: 'g6',
+        component: g6
+    },
+    {
+        path: '/tree',
+        name: 'tree',
+        component: tree
+    },
+    {
+        path: '/virtualScroll',
+        name: 'virtualScroll',
+        component: virtualScroll
     },
     {
         path: '/about',
