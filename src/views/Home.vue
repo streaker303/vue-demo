@@ -6,7 +6,6 @@
             <a href="" style="margin: 0 20px">{{$t('m.menu')}}</a>
             <button @click="toggle">语言切换</button>
             <button style="margin:0 10px" @click="skin">皮肤切换</button>
-            <button @click="go">to-Bar</button>
             <button style="margin:0 10px" @click="toMap">Map</button>
             <button style="margin:0 10px 0 0" @click="toScroll">scroll</button>
             <button style="margin:0 10px 0 0" @click="emotion">emotion</button>
@@ -67,9 +66,6 @@ export default {
                     x.href = './css/theme1.css';
                     break;
             }
-        },
-        go () {
-            this.$router.push('/about');
         },
         toMap () {
             this.$router.push('/map')

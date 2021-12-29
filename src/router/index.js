@@ -17,10 +17,8 @@ import yzm from '../views/yzm.vue'
 import g6 from '../views/g6.vue'
 import tree from '../views/tree.vue'
 import virtualScroll from '../views/virtualScroll.vue'
+import seeBeauty from '../views/seeBeauty.vue'
 
-import one from '../views/1.vue';
-import two from '../views/2.vue';
-import three from '../views/3.vue';
 
 Vue.use(VueRouter)
 
@@ -107,28 +105,10 @@ const routes = [{
         component: virtualScroll
     },
     {
-        path: '/about',
-        name: 'About',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () => import( /* webpackChunkName: "about" */ '../views/About.vue'),
-        children: [{
-            path: 'two',
-            name: '2',
-            component: two
-        },
-            {
-                path: 'one',
-                name: '1',
-                component: one
-            }, {
-                path: 'three',
-                name: '3',
-                component: three,
-            },
-        ]
-    }
+        path: '/seeBeauty',
+        name: 'seeBeauty',
+        component: seeBeauty
+    },
 ]
 
 const router = new VueRouter({
