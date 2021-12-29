@@ -10,7 +10,7 @@
   "dependencies": {
     "@antv/g6": "^4.3.5",
     "autoprefixer": "^8.0.0",
-    "codemirror": "^5.58.1",
+    "codemirror": "^5.58.2",
     "core-js": "^3.6.5",
     "echarts": "^4.8.0",
     "el-tree-transfer": "^2.4.7",
