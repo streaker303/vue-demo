@@ -18,6 +18,7 @@ import g6 from '../views/g6.vue'
 import tree from '../views/tree.vue'
 import virtualScroll from '../views/virtualScroll.vue'
 import seeBeauty from '../views/seeBeauty.vue'
+import Earth from "@/views/threejs/earth";
 
 
 Vue.use(VueRouter)
@@ -108,6 +109,11 @@ const routes = [{
         path: '/seeBeauty',
         name: 'seeBeauty',
         component: seeBeauty
+    },
+    {
+        path: '/threejs',
+        name: 'threejs',
+        component: Earth
     },
 ]
 

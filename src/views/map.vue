@@ -1,10 +1,10 @@
 <template>
-  <div id="container" style="height:100%;width:100%;"></div>
+  <div id="wrapper" style="height:100%;width:100%;"></div>
 </template>
 
 <script>
 import echarts from "echarts";
-import 'echarts/map/js/china';
+import 'echarts/map/js/world';
 
 export default {
   name: "map",
@@ -374,7 +374,7 @@ export default {
         }
       },
       geo: {
-        map: "china",
+        map: "world",
         zoom: 1.2,
         label: {
           emphasis: {
@@ -396,7 +396,7 @@ export default {
       series: series
     };
 
-    let myChart = echarts.init(document.getElementById("container"));
+    let myChart = echarts.init(document.getElementById("wrapper"));
     myChart.setOption(option);
     // console.log(echarts);
   },

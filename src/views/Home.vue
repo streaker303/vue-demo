@@ -21,6 +21,7 @@
             <button style="margin:0 10px 0 0" @click="goG6">拓扑图</button>
             <button style="margin:0 10px 0 0" @click="goTree">穿梭框</button>
             <button style="margin:0 10px 0 0" @click="$router.push('/virtualScroll')">虚拟列表</button>
+            <button style="margin:0 10px 0 0" @click="$router.push('/threejs')">3D地球</button>
 
         </div>
     </div>
